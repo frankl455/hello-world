@@ -3,8 +3,6 @@
 
 long long convertDecimalToBinary( int n );
 
-
-
 int main() {
     int num1 = 0, num2 = 0;
     long long b_num1 = 0, b_num2 = 0;
@@ -48,7 +46,6 @@ int main() {
 
     return 0;
 }
-
 
 long long convertDecimalToBinary( int n ) {
     
