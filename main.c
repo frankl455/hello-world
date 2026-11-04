@@ -3,8 +3,6 @@
 
 long long convertDecimalToBinary( int n );
 
-
-
 int main() {
     int num1 = 0, num2 = 0;
     long long b_num1 = 0, b_num2 = 0;
@@ -47,8 +45,6 @@ int main() {
     printf("The result of applying the left shift operator << on number %d (%lld) by 2 places is number %d (%lld)\n", num1, b_num1, d_num1LeftShiftResult, b_num1LeftShiftResult);
 
     return 0;
-}
-
 
 long long convertDecimalToBinary( int n ) {
     
